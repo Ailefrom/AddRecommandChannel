@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lb_tv_white"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".TvProviderChannel"
+    android:orientation="vertical"
+    tools:deviceIds="wear">
+
+    <TextView
+        android:id="@+id/AddChannelTitle"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="50sp"
+        android:text="Add Chanel"
+        android:textColor="@color/lb_playback_controls_background_dark"
+        />
+
+    <TextView
+        android:id="@+id/AddChannelAction"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="+"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textColor="@color/lb_playback_controls_background_dark"
+        />
+
+    <TextView
+        android:id="@+id/ShowChannelNumber"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:text="Add Channel"
+        android:textColor="@color/lb_playback_controls_background_dark"
+        android:textSize="50sp"
+        />
+
+</LinearLayout>
